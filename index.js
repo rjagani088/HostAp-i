@@ -2,7 +2,7 @@ var mongoose = require('mongoose')
 var express = require('express')
 var route = require('./routes')
 var bodyParser =require('body-parser')
-mongoose.connect('mongodb+srv://rahul:Rahul45@mycluster.jtfqi.mongodb.net/Student?retryWrites=true&w=majority').then(()=>{
+mongoose.connect('mongodb+srv://rahul:Rahul45@mycluster.jtfqi.mongodb.net/movies?retryWrites=true&w=majority').then(()=>{
     console.log('connected')
 
     app = express();
